@@ -1,0 +1,398 @@
+{
+  "metadata": {
+    "title": "Satoshi Naru | Senior Full-Stack AI / ML / LLM Engineer",
+    "description": "Portfolio of Satoshi Naru - Senior Full-Stack AI/ML/LLM Engineer with 10+ years of experience building AI-powered systems, scalable web applications, and production-grade ML solutions."
+  },
+  "nav": {
+    "services": "Services",
+    "projects": "Projects",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact",
+    "resume": "Resume",
+    "downloadResume": "Download Resume",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "available": "Available for projects",
+    "title": "Satoshi Naru",
+    "subtitleLine1": "Senior Full-Stack",
+    "subtitleLine2": "AI / ML / LLM",
+    "subtitleLine3": "Engineer",
+    "bio": "10+ years designing, developing, and operating AI models, scalable web applications, and AI-powered systems. Strong background in AI engineering, full-stack development, and cloud-native architecture.",
+    "location": "Tokyo, Japan",
+    "viewServices": "View Services",
+    "downloadResume": "Download Resume",
+    "stats": {
+      "years": "Years Experience",
+      "systems": "Production-Grade Systems",
+      "reduction": "Workload Reduction",
+      "certs": "Certifications"
+    }
+  },
+  "footer": {
+    "copyright": "Satoshi Naru. All rights reserved.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  },
+  "services": {
+    "whatIDo": "What I Do",
+    "title": "Services",
+    "intro": "End-to-end AI and software engineering services, from rapid prototyping to production deployment.",
+    "viewProjects": "View Projects",
+    "items": [
+      {
+        "title": "Rapid POC / MVP Building",
+        "subtitle": "1 Week Sprint",
+        "description": "Validate your AI product idea fast. Functional prototypes and MVPs in one-week sprints to test market fit and iterate before committing to full development.",
+        "skills": ["Webflow", "Bese44", "Webflow CMS", "Google Analytics", "Next.js/Supabase", "Python", "Docker", "Vercel"],
+        "projectAnchor": "poc-mvp"
+      },
+      {
+        "title": "SaaS App Development",
+        "subtitle": "Stripe & Subscriptions",
+        "description": "End-to-end SaaS development with payment processing, subscription management, authentication, and analytics dashboards. Production-ready from day one.",
+        "skills": ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "OAuth", "Redis", "Tailwind CSS", "GraphQL"],
+        "projectAnchor": "saas"
+      },
+      {
+        "title": "ML Solutions for Business",
+        "subtitle": "Forecasting, Prediction & Detection",
+        "description": "Custom ML models for price forecasting, sales prediction, fraud detection, and recommendation systems. Production-grade with evaluation pipelines.",
+        "skills": ["TensorFlow", "PyTorch", "Scikit-learn", "XGBoost", "Hugging Face", "MLflow", "Pandas", "SageMaker"],
+        "projectAnchor": "ml-solutions"
+      },
+      {
+        "title": "Business Workflow Automation",
+        "subtitle": "AI-Powered Process Optimization",
+        "description": "Automate repetitive workflows with AI agents and intelligent pipelines. Document processing, customer support chatbots, reducing manual workload by 30-45%.",
+        "skills": ["LangChain", "RAG", "GPT-4", "Prompt Engineering", "Kafka", "Celery", "Node.js", "Zapier API"],
+        "projectAnchor": "automation"
+      },
+      {
+        "title": "Web & Mobile App Development",
+        "subtitle": "Full-Stack Cross-Platform",
+        "description": "Modern responsive web and mobile applications with clean architecture. From landing pages to complex platforms with real-time features and scalability.",
+        "skills": ["React", "Next.js", "Vue.js", "React Native", "TypeScript", "Node.js", "MongoDB", "GraphQL"],
+        "projectAnchor": "web-mobile"
+      },
+      {
+        "title": "DevOps & AWS Automation",
+        "subtitle": "Terraform & CI/CD",
+        "description": "Infrastructure as code, automated deployment pipelines, and cloud architecture on AWS. Kubernetes orchestration, containerization, and monitoring.",
+        "skills": ["AWS", "Terraform", "Docker", "Kubernetes", "CI/CD", "GitHub Actions", "CloudWatch", "GCP"],
+        "projectAnchor": "devops"
+      }
+    ]
+  },
+  "projects": {
+    "portfolio": "Portfolio",
+    "title": "Selected Projects",
+    "intro": "Real-world AI and software solutions delivering measurable business impact.",
+    "categoriesLabel": "Project categories",
+    "features": "Features",
+    "stack": "Stack",
+    "categories": [
+      {
+        "id": "poc-mvp",
+        "label": "POC / MVP",
+        "projects": [
+          {
+            "title": "Agent Smith",
+            "description": "AI-powered startup platform for building and scaling ventures. End-to-end tooling and automation for founders and teams.",
+            "tech": ["AI", "Next.js", "React", "TypeScript", "Vercel"]
+          },
+          {
+            "title": "Real Estate Property Management Platform",
+            "description": "Full-stack property management platform for listings, tenant management, and operations. Built for rapid POC validation.",
+            "tech": ["React", "Node.js", "PostgreSQL", "Docker"]
+          },
+          {
+            "title": "Night Club Web & Mobile",
+            "description": "Web and mobile experience for nightlife: events, ticketing, and venue management. Cross-platform POC.",
+            "tech": ["React", "React Native", "Firebase", "Stripe"]
+          }
+        ]
+      },
+      {
+        "id": "saas",
+        "label": "SaaS",
+        "projects": [
+          {
+            "title": "Hollynest",
+            "description": "The Hollynest marketing and portal site: Next.js app with Supabase auth, Stripe subscriptions, embedded chatbot (RAG + session/analytics), and user dashboard—about, blog, pricing, creators, FAQ, and contact.",
+            "features": [
+              "Marketing & content: About, blog, FAQ, pricing, creators, contact; privacy/terms",
+              "Auth: Login, register, forgot-password; Supabase Auth; OAuth callback",
+              "User dashboard: Profile, change-password, delete-account; user-profile pages with embedded chatbot",
+              "Subscriptions: Stripe checkout (Basic/Premium/VIP), customer portal, webhooks",
+              "Chatbot: Embedded chat UI; API routes for chat, session, analytics; RAG/session logic",
+              "STT / TTS: Speech-to-text and text-to-speech API routes",
+              "Forms & security: EmailJS, hCaptcha, reCAPTCHA"
+            ],
+            "tech": ["Next.js 15", "TypeScript", "Supabase", "Stripe", "Tailwind CSS", "Radix UI", "TanStack Query", "React Hook Form", "Zod"]
+          },
+          {
+            "title": "Paperclue",
+            "description": "Paperclue.AI frontend and backend: a platform for managing and analyzing research papers. Next.js app for paper upload, AI analysis, semantic search, and subscriptions; FastAPI backend with Mistral/OpenAI, semantic search, journal formatting, proofreading, and Stripe billing.",
+            "features": [
+              "Paper management: Upload, view, organize research papers; full-text and semantic search",
+              "AI analysis: Summaries, insights, citations via Mistral/OpenAI; proofreader & humanization",
+              "Journal APIs: Crossref, DOAJ, Elsevier, IEEE, OpenAlex, PMC; format manuscripts to journal guidelines",
+              "Frontend: Responsive UI (Tailwind, Shadcn), i18n, dark mode; Jotai, TanStack Query",
+              "Backend: FastAPI, PostgreSQL, SQLAlchemy, Alembic; auth (JWT/OAuth), Stripe, Brevo email"
+            ],
+            "tech": ["Next.js 15", "TypeScript", "FastAPI", "Python", "PostgreSQL", "Mistral AI", "OpenAI", "Stripe", "Tailwind CSS", "Shadcn/ui", "Jotai", "TanStack Query"]
+          },
+          {
+            "title": "Suisei",
+            "description": "All-in-one platform to create AI agents and manage your knowledge base—powered by the latest LLMs. Build, deploy, and orchestrate agents; sync your knowledge; and automate workflows in natural language. No code, no hassle: AI assistance in-browser via Chrome extension with strong security and privacy.",
+            "features": [
+              "AI Agents: Build, manage, and deploy agents in one platform",
+              "Knowledge Base: Sync and empower agents with up-to-date information",
+              "AI Workflows: Automate tasks through natural language (coming soon)",
+              "Chrome Extension: AI assistance anywhere in the browser",
+              "Security: No training on your data; end-to-end encryption"
+            ],
+            "tech": ["Next.js", "LLM", "GPT", "Claude", "Gemini", "Chrome Extension"]
+          },
+          {
+            "title": "AshesPos",
+            "description": "Ashpos is a cannabis dispensary point-of-sale and inventory system. Frontend: Next.js (Turborepo) for multi-org, multi-store retail—inventory, orders, customers, loyalty, barcode scanning, reports; optional Electron desktop. Backend: GraphQL API (Hapi + Apollo) with Prisma and PostgreSQL—organizations, dispensaries, products, packages, orders, customers, Metrc integration, JWT auth.",
+            "features": [
+              "Multi-org / multi-store: Route by organization and store; org-access and per-store dashboards",
+              "POS & orders: Order creation, checkout; customer queue; products, packages, barcode scanning (Dynamsoft)",
+              "Inventory: Drawers, transfers, adjustments; Metrc-oriented package status and sync",
+              "Customers & loyalty: Customer list/search, loyalty programs, loyalty history",
+              "Reports & analytics: Reports, charts (Chart.js, ApexCharts, Recharts), Excel exports",
+              "Backend: GraphQL (Hapi, Apollo, Prisma, PostgreSQL); JWT auth; SendGrid, Twilio; node-cron jobs"
+            ],
+            "tech": ["Next.js 14", "TypeScript", "Turborepo", "GraphQL", "Apollo", "Hapi", "Prisma", "PostgreSQL", "JWT", "Tailwind CSS", "Mantine", "Dynamsoft", "Electron"]
+          },
+          {
+            "title": "QCall.ai",
+            "description": "24/7 AI agent calling platform that automates sales, customer support, and follow-ups with AI-driven human-like conversations. Inbound and outbound calls, multilingual support, AI call routing, lead prioritization, analytics, and CRM integration. Use cases: cold calls, customer support, appointment scheduling, surveys, collections, and HR recruitment.",
+            "tech": ["Next.js", "TypeScript", "GPT-4", "Stripe", "PostgreSQL"]
+          }
+        ]
+      },
+      {
+        "id": "ml-solutions",
+        "label": "ML Solutions",
+        "projects": [
+          {
+            "title": "E-Commerce Recommendation & Fraud Detection",
+            "description": "ML recommendation engine and fraud detection for Rakuten e-commerce using ensemble methods (XGBoost, LightGBM) and deep learning (PyTorch) for ranking and anomaly detection. MLOps: data pipelines (Airflow) for feature and label backfills; MLflow for experiment tracking, model versioning, and registry; CI/CD (GitHub Actions) for training and validation; Docker + Kubernetes for online serving with shadow deployment and A/B testing; Redis for low-latency feature and candidate caching; monitoring (Prometheus/Grafana) for latency, throughput, and model drift. Results: +18% click-through rate on recommended items; ~25% reduction in fraud-related chargebacks; p99 inference under 50ms.",
+            "tech": ["PyTorch", "XGBoost", "Scikit-learn", "MLflow", "Airflow", "Kubernetes", "Redis", "AWS"]
+          },
+          {
+            "title": "Time Series Forecasting",
+            "description": "End-to-end time series forecasting for demand, capacity, and resource planning using ARIMA, Prophet, and deep learning (LSTM/Transformer). MLOps: scheduled data ingestion and feature computation (Airflow); MLflow for tracking metrics (MAE, RMSE, MAPE) and registering champion/challenger models; automated retraining on a cadence and on drift; Dockerized serving with FastAPI; validation gates (backtest and holdout) before production promotion; monitoring for forecast bias and residual distribution. Results: MAPE under 12% on 4-week demand forecasts; reduced overstock by ~15%; automated retraining kept accuracy stable across seasonality shifts.",
+            "tech": ["Python", "Prophet", "LSTM", "TensorFlow", "Pandas", "MLflow", "Airflow", "Docker"]
+          },
+          {
+            "title": "Sales and Production Prediction",
+            "description": "ML models for sales volume and production output prediction to support inventory, staffing, and supply chain. Feature engineering from historical sales, promotions, and external signals; XGBoost/Scikit-learn with rigorous train/validation splits. MLOps: feature store and pipeline (Airflow); MLflow for experiments and model registry; CI/CD for training and evaluation; FastAPI services in Docker on AWS (ECS/Lambda); scheduled retraining and performance dashboards; alerts on MAE/RMSE degradation and data drift. Results: sales forecast MAE within 5% of actuals; production prediction reduced planning errors by ~20%; clearer visibility into demand drivers.",
+            "tech": ["Python", "XGBoost", "Scikit-learn", "Pandas", "FastAPI", "MLflow", "Airflow", "AWS"]
+          },
+          {
+            "title": "Sentiment Analysis from Chatting Tools",
+            "description": "NLP pipeline for sentiment and intent analysis from chat and messaging data (Slack, support tickets, social). Transformer-based classifiers (Hugging Face) with custom fine-tuning. MLOps: labeled data versioning and train/eval splits; MLflow for experiment tracking and model registry; FastAPI inference in Docker; CI/CD for model updates; PostgreSQL for predictions and aggregates; dashboards for accuracy, latency, and label distribution; periodic retraining on new labeled data. Results: over 88% accuracy on sentiment; intent classification F1 ~0.85; real-time inference under 100ms; customer satisfaction trends surfaced weekly.",
+            "tech": ["Python", "Transformers", "Hugging Face", "FastAPI", "MLflow", "PostgreSQL", "Docker"]
+          },
+          {
+            "title": "Travel Recommendation System (Neo4j)",
+            "description": "Graph-based travel recommendation engine using Neo4j: destinations, activities, and itineraries as nodes and relationships; personalized suggestions from user preferences and collaborative patterns via Cypher and graph algorithms. MLOps: graph ETL and schema versioning; MLflow for any auxiliary ML (e.g. ranking); FastAPI + Neo4j in Docker; blue/green deployment for graph and API; latency and cache-hit monitoring; periodic graph updates and index tuning. Results: over 30% improvement in recommendation relevance (offline NDCG); under 50ms p95 for recommendation API; higher engagement on suggested itineraries.",
+            "tech": ["Neo4j", "Python", "Cypher", "FastAPI", "MLflow", "Docker", "Graph Algorithms"]
+          }
+        ]
+      },
+      {
+        "id": "automation",
+        "label": "Automation",
+        "projects": [
+          {
+            "title": "OpenAI Transcribe Audio + Summarize + Save to Google Drive",
+            "description": "Eliminates manual transcription work by automatically converting audio files into organized text documents with AI analysis, while maintaining human oversight through approval workflows. Triggers when new .m4a files appear in Google Drive; uses OpenAI Whisper for accurate transcription; requires email approval before processing with a 45-minute response window and escalation options; generates structured JSON reports (key points, action items, sentiment analysis); stores raw transcripts and reports in Google Drive.",
+            "features": [
+              "Triggers when new .m4a files appear in Google Drive",
+              "Uses OpenAI Whisper for accurate transcription",
+              "Requires email approval before processing",
+              "45-minute response window with escalation options",
+              "Generates structured JSON reports: key points & action items, sentiment analysis",
+              "Stores raw transcripts + reports in Google Drive"
+            ],
+            "tech": ["OpenAI Whisper", "Google Drive API", "n8n", "GPT-4", "JSON", "Email workflow"]
+          },
+          {
+            "title": "RAG Chatbot using n8n",
+            "description": "Retrieval-augmented generation (RAG) chatbot built with n8n: connects your documents and data to an AI assistant for accurate, source-grounded answers. Workflow automates ingestion, embedding, and retrieval; chat interface queries the vector store and generates responses with citations. Deployable as internal or customer-facing Q&A without manual transcription or copy-paste.",
+            "tech": ["n8n", "OpenAI", "Embeddings", "Vector Store", "RAG", "Workflow automation"]
+          },
+          {
+            "title": "Enterprise Document Processing Pipeline",
+            "description": "AI document processing reducing manual workload by 30-45% and improving accuracy by 20%. Automated extraction, classification, and routing.",
+            "tech": ["LangChain", "GPT-4", "Kafka", "FastAPI", "Docker"]
+          }
+        ]
+      },
+      {
+        "id": "web-mobile",
+        "label": "Web & Mobile",
+        "projects": [
+          {
+            "title": "BANNER LIBRARY (Design Library)",
+            "description": "Gallery site for quality banner and web design reference. BANNER LIBRARY (design-library.jp) curates seasonal and category-based designs—fashion, beauty, food, travel, campaigns—with filters by taste, topic, shape, and color. Responsive web with search, favorites, and rankings; part of a design resource group (UI LIBRARY, MAIL LIBRARY, EC LIBRARY, CSS LABORATORY).",
+            "tech": ["React", "Next.js", "TypeScript", "Tailwind CSS", "WordPress"]
+          },
+          {
+            "title": "Taprize",
+            "description": "Online gacha platform for limited and collaboration prizes. Taprize (taprize.jp) lets users play gacha to win exclusive physical and digital goods; creators get customizable sales pages, end-to-end production and fulfillment, and credit-card checkout. Free sign-up, play-by-purchase flow, and automatic shipping or digital delivery.",
+            "tech": ["React", "Ruby on Rails", "Stripe", "PostgreSQL", "Docker"]
+          },
+          {
+            "title": "Klook",
+            "description": "Web and mobile travel platform for activities, attractions, hotels, and experiences. Klook (klook.com) lets users discover and book from local escapes to far-flung adventures—skip-the-line tickets, tours, transfers, eSIMs, and more. Responsive web and native apps; free cancellation, instant confirmation, Klook credits, and reviews. Your world of joy, anytime, anywhere.",
+            "tech": ["React", "React Native", "Node.js", "TypeScript", "PostgreSQL", "AWS", "Docker"]
+          }
+        ]
+      },
+      {
+        "id": "devops",
+        "label": "DevOps",
+        "projects": [
+          {
+            "title": "AWS Terraform Automation",
+            "description": "Multi-brand, multi-environment AWS automation with Terraform and Bash. Infrastructure: create, destroy, update, and validate environments (Terraform workspaces, namespaced resources). Deployment: automated deploy script that (1) validates prerequisites (AWS CLI, Terraform, jq), (2) reads Terraform outputs (RDS secret ARN, Redis, S3, Elastic Beanstalk app/env), (3) fetches DB and API credentials from AWS Secrets Manager, (4) builds .env from Terraform + secrets, (5) packages the app, (6) configures EB environment variables, (7) deploys to Elastic Beanstalk. Monitoring: health checks, log viewing, and report generation. Supports multiple brands and environments (e.g. staging, production) with a single script interface.",
+            "features": [
+              "Infrastructure: create-environment, destroy-environment, update-environment, validate-environment (Terraform >= 1.6)",
+              "Deployment: deploy.sh—Terraform outputs → Secrets Manager (DB, API keys) → .env generation → zip package → EB deploy",
+              "Multi-brand: parameterized by brand and environment; resources namespaced {brand}-{environment}-{resource}",
+              "Secrets: DB credentials and API keys (Stripe, Auth0, Plivo, Mailgun, etc.) from AWS Secrets Manager with .env fallback",
+              "Monitoring: check-health, view-logs, generate-report scripts",
+              "CI/CD-ready: prerequisite checks, workspace selection, optional non-interactive mode"
+            ],
+            "tech": ["AWS", "Terraform", "Elastic Beanstalk", "Secrets Manager", "S3", "Redis", "Bash", "jq", "EB CLI"]
+          },
+          {
+            "title": "LLMOps & MLOps Standards",
+            "description": "Organization-wide LLMOps/MLOps standards with automated evaluation pipelines, model versioning, shadow deployments, and cost-aware inference routing.",
+            "tech": ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform"]
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "career": "Career",
+    "title": "Experience",
+    "intro": "10+ years of progressive growth from junior developer to senior AI engineer.",
+    "items": [
+      {
+        "company": "Preferred Networks",
+        "role": "Senior AI Engineer",
+        "period": "Aug 2023 - Aug 2025",
+        "location": "Tokyo, Japan",
+        "highlights": [
+          "Led ML models development for computer vision and NLP tasks",
+          "Built and optimized deep learning pipelines for large-scale datasets in robotics and healthcare",
+          "Applied transfer learning, reinforcement learning, and state-of-the-art transformers in production",
+          "Mentored junior engineers and conducted internal workshops on advanced ML topics"
+        ]
+      },
+      {
+        "company": "Rakuten Group, Inc.",
+        "role": "Senior Full-Stack AI Engineer",
+        "period": "Jan 2021 - Jul 2023",
+        "location": "Tokyo, Japan",
+        "highlights": [
+          "Developed AI-powered applications for e-commerce and fintech using ML for recommendations and fraud detection",
+          "Led development of an AI chatbot platform using transformer-based models (GPT, Gemini)",
+          "Integrated NLP and image recognition into web and mobile applications",
+          "Optimized database performance and system scalability"
+        ]
+      },
+      {
+        "company": "SCSK Corporation",
+        "role": "Full-Stack Engineer",
+        "period": "Apr 2018 - Nov 2020",
+        "location": "Tokyo, Japan",
+        "highlights": [
+          "Developed full-stack web applications using JavaScript, Java, and Python",
+          "Participated in requirement analysis, system design, and code reviews",
+          "Supported long-term customer projects with continuous improvements"
+        ]
+      },
+      {
+        "company": "LINE Corporation",
+        "role": "Junior Full-Stack Developer",
+        "period": "Jun 2017 - Mar 2018",
+        "location": "Tokyo, Japan",
+        "highlights": [
+          "Developed frontend and backend features under senior supervision",
+          "Learned the full software development lifecycle and coding standards",
+          "Built solid foundations in web technologies and programming principles"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "expertise": "Expertise",
+    "title": "Skills & Certifications",
+    "intro": "Technical proficiency across the full AI and software development lifecycle.",
+    "groups": [
+      {
+        "title": "AI / Machine Learning",
+        "skills": ["Machine Learning", "Deep Learning", "NLP", "LLMs", "RAG", "Prompt Engineering", "Transformers", "Fine-tuning", "Model Evaluation", "Forecasting", "Recommendation Systems", "TensorFlow", "Keras", "Hugging Face", "LangChain", "Scikit-learn", "XGBoost"]
+      },
+      {
+        "title": "Full-Stack Development",
+        "skills": ["React", "Next.js", "Vue.js", "TypeScript", "Tailwind CSS", "Node.js", "FastAPI", "Django", "Java", "RESTful / GraphQL", "SQL", "MongoDB", "Redis", "OAuth"]
+      },
+      {
+        "title": "MLOps & Cloud",
+        "skills": ["Docker", "Kubernetes", "MLflow", "CI/CD", "AWS", "GCP", "Azure", "Terraform", "GitHub Actions"]
+      }
+    ],
+    "certificationsTitle": "Certifications",
+    "certifications": [
+      { "name": "Deep Learning Specialization", "issuer": "Coursera / DeepLearning.AI" },
+      { "name": "Generative AI with LLMs", "issuer": "Coursera / DeepLearning.AI" },
+      { "name": "AWS Certified ML - Specialty", "issuer": "Amazon Web Services" }
+    ]
+  },
+  "education": {
+    "background": "Background",
+    "title": "Education",
+    "items": [
+      {
+        "degree": "Master of Information Science and Technology (MIST)",
+        "university": "The University of Tokyo",
+        "period": "2021 - 2023"
+      },
+      {
+        "degree": "Bachelor's Degree in Computer Science",
+        "university": "Nagoya University",
+        "period": "2013 - 2017"
+      }
+    ]
+  },
+  "contact": {
+    "getStarted": "Get Started",
+    "title": "Get In Touch",
+    "intro": "Let's discuss how AI can solve your business challenges.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "your@email.com",
+    "messagePlaceholder": "Tell me about your project...",
+    "sendMessage": "Send Message",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "location": "Location",
+    "locationValue": "Tokyo, Japan"
+  }
+}

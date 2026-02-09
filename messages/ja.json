@@ -1,0 +1,398 @@
+{
+  "metadata": {
+    "title": "成 聡志 | シニア フルスタック AI / ML / LLM エンジニア",
+    "description": "成 聡志のポートフォリオ - AI システム・スケーラブルな Web アプリ・本番 ML ソリューションを手がける 10 年以上の経験を持つシニア フルスタック AI/ML/LLM エンジニア。"
+  },
+  "nav": {
+    "services": "サービス",
+    "projects": "プロジェクト",
+    "experience": "経歴",
+    "skills": "スキル",
+    "contact": "お問い合わせ",
+    "resume": "履歴書",
+    "downloadResume": "履歴書をダウンロード",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる"
+  },
+  "hero": {
+    "available": "プロジェクト対応可能",
+    "title": "成 聡志",
+    "subtitleLine1": "シニア フルスタック",
+    "subtitleLine2": "AI / ML / LLM",
+    "subtitleLine3": "エンジニア",
+    "bio": "10 年以上、AI モデル・スケーラブルな Web アプリ・AI 駆動システムの設計・開発・運用に従事。AI エンジニアリング、フルスタック開発、クラウドネイティブアーキテクチャの豊富な経験。",
+    "location": "東京都、日本",
+    "viewServices": "サービスを見る",
+    "downloadResume": "履歴書をダウンロード",
+    "stats": {
+      "years": "年の経験",
+      "systems": "本番システム",
+      "reduction": "業務負荷削減",
+      "certs": "資格"
+    }
+  },
+  "footer": {
+    "copyright": "成 聡志. All rights reserved.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "メール"
+  },
+  "services": {
+    "whatIDo": "提供サービス",
+    "title": "サービス",
+    "intro": "迅速なプロトタイピングから本番デプロイまで、AI およびソフトウェアエンジニアリングの一貫したサービスを提供します。",
+    "viewProjects": "プロジェクトを見る",
+    "items": [
+      {
+        "title": "迅速な POC / MVP 構築",
+        "subtitle": "1 週間スプリント",
+        "description": "AI プロダクトの検証を短期間で。1 週間スプリントで機能的なプロトタイプと MVP を構築し、本格開発前にマーケットフィットを検証。",
+        "skills": ["Webflow", "Bese44", "Webflow CMS", "Google Analytics", "Next.js/Supabase", "Python", "Docker", "Vercel"],
+        "projectAnchor": "poc-mvp"
+      },
+      {
+        "title": "SaaS アプリ開発",
+        "subtitle": "Stripe とサブスクリプション",
+        "description": "決済・サブスク管理・認証・分析ダッシュボードを備えた SaaS を一貫して開発。初日から本番対応。",
+        "skills": ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "OAuth", "Redis", "Tailwind CSS", "GraphQL"],
+        "projectAnchor": "saas"
+      },
+      {
+        "title": "ビジネス向け ML ソリューション",
+        "subtitle": "予測・検知",
+        "description": "価格予測、売上予測、不正検知、レコメンドシステム向けのカスタム ML モデル。評価パイプラインを備えた本番グレード。",
+        "skills": ["TensorFlow", "PyTorch", "Scikit-learn", "XGBoost", "Hugging Face", "MLflow", "Pandas", "SageMaker"],
+        "projectAnchor": "ml-solutions"
+      },
+      {
+        "title": "業務ワークフロー自動化",
+        "subtitle": "AI によるプロセス最適化",
+        "description": "AI エージェントとインテリジェントパイプラインで反復業務を自動化。文書処理、カスタマーサポートチャットボットにより手作業を 30〜45% 削減。",
+        "skills": ["LangChain", "RAG", "GPT-4", "Prompt Engineering", "Kafka", "Celery", "Node.js", "Zapier API"],
+        "projectAnchor": "automation"
+      },
+      {
+        "title": "Web・モバイルアプリ開発",
+        "subtitle": "フルスタック クロスプラットフォーム",
+        "description": "クリーンアーキテクチャによるモダンなレスポンシブ Web とモバイルアプリ。ランディングページからリアルタイム機能とスケーラビリティを備えた複雑なプラットフォームまで。",
+        "skills": ["React", "Next.js", "Vue.js", "React Native", "TypeScript", "Node.js", "MongoDB", "GraphQL"],
+        "projectAnchor": "web-mobile"
+      },
+      {
+        "title": "DevOps と AWS 自動化",
+        "subtitle": "Terraform と CI/CD",
+        "description": "Infrastructure as Code、自動デプロイパイプライン、AWS 上のクラウドアーキテクチャ。Kubernetes オーケストレーション、コンテナ化、モニタリング。",
+        "skills": ["AWS", "Terraform", "Docker", "Kubernetes", "CI/CD", "GitHub Actions", "CloudWatch", "GCP"],
+        "projectAnchor": "devops"
+      }
+    ]
+  },
+  "projects": {
+    "portfolio": "ポートフォリオ",
+    "title": "選定プロジェクト",
+    "intro": "測定可能なビジネスインパクトを提供する実世界の AI およびソフトウェアソリューション。",
+    "categoriesLabel": "プロジェクトカテゴリ",
+    "features": "機能",
+    "stack": "技術スタック",
+    "categories": [
+      {
+        "id": "poc-mvp",
+        "label": "POC / MVP",
+        "projects": [
+          {
+            "title": "Agent Smith",
+            "description": "ベンチャー構築・スケールのための AI 駆動スタートアッププラットフォーム。創業者とチーム向けのエンドツーエンドのツールと自動化。",
+            "tech": ["AI", "Next.js", "React", "TypeScript", "Vercel"]
+          },
+          {
+            "title": "不動産物件管理プラットフォーム",
+            "description": "リスティング、テナント管理、運用のためのフルスタック物件管理プラットフォーム。迅速な POC 検証向けに構築。",
+            "tech": ["React", "Node.js", "PostgreSQL", "Docker"]
+          },
+          {
+            "title": "ナイトクラブ Web・モバイル",
+            "description": "ナイトライフ向け Web・モバイル体験：イベント、チケット、会場管理。クロスプラットフォーム POC。",
+            "tech": ["React", "React Native", "Firebase", "Stripe"]
+          }
+        ]
+      },
+      {
+        "id": "saas",
+        "label": "SaaS",
+        "projects": [
+          {
+            "title": "Hollynest",
+            "description": "Hollynest のマーケティング・ポータルサイト：Supabase 認証、Stripe サブスク、埋め込みチャットボット（RAG・セッション・分析）、ユーザーダッシュボードを備えた Next.js アプリ。About、ブログ、料金、クリエイター、FAQ、お問い合わせ。",
+            "features": [
+              "マーケティング・コンテンツ: About、ブログ、FAQ、料金、クリエイター、お問い合わせ；プライバシー/利用規約",
+              "認証: ログイン、登録、パスワード忘れ；Supabase Auth；OAuth コールバック",
+              "ユーザーダッシュボード: プロフィール、パスワード変更、アカウント削除；埋め込みチャットボット付きユーザープロフィール",
+              "サブスクリプション: Stripe チェックアウト（Basic/Premium/VIP）、カスタマーポータル、Webhook",
+              "チャットボット: 埋め込みチャット UI；チャット・セッション・分析用 API ルート；RAG/セッションロジック",
+              "STT / TTS: 音声認識・音声合成 API ルート",
+              "フォーム・セキュリティ: EmailJS、hCaptcha、reCAPTCHA"
+            ],
+            "tech": ["Next.js 15", "TypeScript", "Supabase", "Stripe", "Tailwind CSS", "Radix UI", "TanStack Query", "React Hook Form", "Zod"]
+          },
+          {
+            "title": "Paperclue",
+            "description": "Paperclue.AI フロント・バックエンド：研究論文の管理・分析プラットフォーム。論文アップロード、AI 分析、セマンティック検索、サブスクを備えた Next.js アプリ；Mistral/OpenAI・セマンティック検索・ジャーナルフォーマット・校正・Stripe 請求を備えた FastAPI バックエンド。",
+            "features": [
+              "論文管理: アップロード、閲覧、整理；全文・セマンティック検索",
+              "AI 分析: Mistral/OpenAI による要約・洞察・引用；校正・人間らしさ調整",
+              "ジャーナル API: Crossref、DOAJ、Elsevier、IEEE、OpenAlex、PMC；ジャーナルガイドラインへの原稿フォーマット",
+              "フロントエンド: レスポンシブ UI（Tailwind、Shadcn）、i18n、ダークモード；Jotai、TanStack Query",
+              "バックエンド: FastAPI、PostgreSQL、SQLAlchemy、Alembic；認証（JWT/OAuth）、Stripe、Brevo メール"
+            ],
+            "tech": ["Next.js 15", "TypeScript", "FastAPI", "Python", "PostgreSQL", "Mistral AI", "OpenAI", "Stripe", "Tailwind CSS", "Shadcn/ui", "Jotai", "TanStack Query"]
+          },
+          {
+            "title": "Suisei",
+            "description": "AI エージェントの作成とナレッジベース管理のオールインワンプラットフォーム—最新 LLM 搭載。エージェントの構築・デプロイ・オーケストレーション；ナレッジの同期；自然言語でのワークフロー自動化。Chrome 拡張でブラウザ内 AI アシスタント、強固なセキュリティとプライバシー。",
+            "features": [
+              "AI エージェント: 1 つのプラットフォームで構築・管理・デプロイ",
+              "ナレッジベース: 最新情報でエージェントを同期・強化",
+              "AI ワークフロー: 自然言語でタスクを自動化（近日公開）",
+              "Chrome 拡張: ブラウザ内どこでも AI アシスタント",
+              "セキュリティ: お客様データで学習しない；エンドツーエンド暗号化"
+            ],
+            "tech": ["Next.js", "LLM", "GPT", "Claude", "Gemini", "Chrome Extension"]
+          },
+          {
+            "title": "AshesPos",
+            "description": "Ashpos は大麻ディスペンサリー向け POS・在庫システム。フロント: マルチ組織・マルチ店舗小売向け Next.js（Turborepo）—在庫、注文、顧客、ロイヤルティ、バーコードスキャン、レポート；オプションで Electron デスクトップ。バック: GraphQL API（Hapi + Apollo）、Prisma・PostgreSQL—組織、ディスペンサリー、商品、パッケージ、注文、顧客、Metrc 連携、JWT 認証。",
+            "features": [
+              "マルチ組織/店舗: 組織・店舗でルーティング；組織アクセス・店舗別ダッシュボード",
+              "POS・注文: 注文作成、チェックアウト；顧客キュー；商品、パッケージ、バーコードスキャン（Dynamsoft）",
+              "在庫: 引き出し、転送、調整；Metrc 向けパッケージステータス・同期",
+              "顧客・ロイヤルティ: 顧客一覧/検索、ロイヤルティプログラム、履歴",
+              "レポート・分析: レポート、チャート（Chart.js、ApexCharts、Recharts）、Excel エクスポート",
+              "バックエンド: GraphQL（Hapi、Apollo、Prisma、PostgreSQL）；JWT 認証；SendGrid、Twilio；node-cron"
+            ],
+            "tech": ["Next.js 14", "TypeScript", "Turborepo", "GraphQL", "Apollo", "Hapi", "Prisma", "PostgreSQL", "JWT", "Tailwind CSS", "Mantine", "Dynamsoft", "Electron"]
+          },
+          {
+            "title": "QCall.ai",
+            "description": "24時間365日対応の AI エージェント通話プラットフォーム。営業・カスタマーサポート・フォローアップを AI による人間らしい会話で自動化。着信・発信対応、多言語サポート、AI コールルーティング、リード優先度付け、分析、CRM 連携。ユースケース：コールドコール、カスタマーサポート、予約スケジューリング、アンケート、回収、HR 採用。",
+            "tech": ["Next.js", "TypeScript", "GPT-4", "Stripe", "PostgreSQL"]
+          }
+        ]
+      },
+      {
+        "id": "ml-solutions",
+        "label": "ML ソリューション",
+        "projects": [
+          {
+            "title": "E コマース レコメンド・不正検知",
+            "description": "アンサンブル（XGBoost、LightGBM）と深層学習（PyTorch）による楽天 E コマース向け ML レコメンドエンジン・不正検知。MLOps: 特徴・ラベルバックフィルのデータパイプライン（Airflow）；実験追跡・モデルバージョン・レジストリの MLflow；訓練・検証の CI/CD（GitHub Actions）；シャドウデプロイ・A/B テストの Docker + Kubernetes オンライン提供；低レイテンシ特徴・候補キャッシュの Redis；レイテンシ・スループット・モデルドリフトのモニタリング（Prometheus/Grafana）。結果: レコメンド CTR +18%；不正関連チャージバック約 25% 削減；p99 推論 50ms 未満。",
+            "tech": ["PyTorch", "XGBoost", "Scikit-learn", "MLflow", "Airflow", "Kubernetes", "Redis", "AWS"]
+          },
+          {
+            "title": "時系列予測",
+            "description": "ARIMA、Prophet、深層学習（LSTM/Transformer）による需要・キャパシティ・リソース計画のエンドツーエンド時系列予測。MLOps: データ取り込み・特徴計算のスケジュール（Airflow）；MAE・RMSE・MAPE 追跡とチャンピオン/チャレンジャーモデル登録の MLflow；定期・ドリフト時の自動再訓練；FastAPI の Docker 提供；本番昇格前の検証ゲート（バックテスト・ホールドアウト）；予測バイアス・残差分布のモニタリング。結果: 4 週間需要予測で MAPE 12% 未満；過剰在庫約 15% 削減；季節性変化でも自動再訓練で精度を維持。",
+            "tech": ["Python", "Prophet", "LSTM", "TensorFlow", "Pandas", "MLflow", "Airflow", "Docker"]
+          },
+          {
+            "title": "売上・生産予測",
+            "description": "在庫・人員・サプライチェーンのための売上量・生産量予測 ML モデル。過去売上・プロモーション・外部シグナルからの特徴エンジニアリング；XGBoost/Scikit-learn と厳密な train/validation 分割。MLOps: 特徴ストア・パイプライン（Airflow）；実験・モデルレジストリの MLflow；訓練・評価の CI/CD；AWS（ECS/Lambda）上の Docker FastAPI サービス；スケジュール再訓練・パフォーマンスダッシュボード；MAE/RMSE 悪化・データドリフトのアラート。結果: 売上予測 MAE 実績の 5% 以内；生産予測で計画誤差約 20% 削減；需要要因の可視化。",
+            "tech": ["Python", "XGBoost", "Scikit-learn", "Pandas", "FastAPI", "MLflow", "Airflow", "AWS"]
+          },
+          {
+            "title": "チャットツールからの感情分析",
+            "description": "チャット・メッセージデータ（Slack、サポートチケット、SNS）の感情・意図分析 NLP パイプライン。カスタムファインチューニングのトランスフォーマー分類器（Hugging Face）。MLOps: ラベル付きデータバージョニングと train/eval 分割；実験追跡・モデルレジストリの MLflow；Docker の FastAPI 推論；モデル更新の CI/CD；予測・集計の PostgreSQL；精度・レイテンシ・ラベル分布のダッシュボード；新規ラベルデータでの定期再訓練。結果: 感情分析精度 88% 超；意図分類 F1 約 0.85；リアルタイム推論 100ms 未満；顧客満足トレンドを週次で可視化。",
+            "tech": ["Python", "Transformers", "Hugging Face", "FastAPI", "MLflow", "PostgreSQL", "Docker"]
+          },
+          {
+            "title": "旅行レコメンドシステム（Neo4j）",
+            "description": "Neo4j によるグラフベースの旅行レコメンドエンジン：目的地・アクティビティ・旅程をノードとリレーションで表現；Cypher とグラフアルゴリズムでユーザー嗜好・協調パターンに基づくパーソナライズ提案。MLOps: グラフ ETL・スキーマバージョニング；補助 ML 用 MLflow；FastAPI + Neo4j の Docker；グラフ・API のブルー/グリーンデプロイ；レイテンシ・キャッシュヒットのモニタリング；定期グラフ更新・インデックスチューニング。結果: オフライン NDCG でレコメンド関連性 30% 以上向上；レコメンド API p95 50ms 未満；提案旅程のエンゲージメント向上。",
+            "tech": ["Neo4j", "Python", "Cypher", "FastAPI", "MLflow", "Docker", "Graph Algorithms"]
+          }
+        ]
+      },
+      {
+        "id": "automation",
+        "label": "自動化",
+        "projects": [
+          {
+            "title": "OpenAI 音声文字起こし + 要約 + Google ドライブ保存",
+            "description": "音声ファイルを AI 分析付きの整理された文書に自動変換し、承認ワークフローで人的チェックを維持。Google ドライブに新しい .m4a が追加されるとトリガー；OpenAI Whisper で正確な文字起こし；処理前にメール承認（45 分の応答時間とエスカレーション）；構造化 JSON レポート（要点、アクション項目、感情分析）；生の文字起こしとレポートを Google ドライブに保存。",
+            "features": [
+              "Google ドライブに新しい .m4a が追加されるとトリガー",
+              "OpenAI Whisper で正確な文字起こし",
+              "処理前にメール承認が必要",
+              "45 分の応答時間とエスカレーションオプション",
+              "構造化 JSON レポート：要点・アクション項目・感情分析",
+              "生の文字起こしとレポートを Google ドライブに保存"
+            ],
+            "tech": ["OpenAI Whisper", "Google Drive API", "n8n", "GPT-4", "JSON", "Email workflow"]
+          },
+          {
+            "title": "n8n による RAG チャットボット",
+            "description": "n8n で構築した RAG チャットボット：文書とデータを AI アシスタントに接続し、正確でソースに基づいた回答を提供。ワークフローで取り込み・埋め込み・検索を自動化；チャット UI がベクトルストアにクエリし、引用付きで応答を生成。手動の文字起こしやコピペなしで社内・顧客向け Q&A としてデプロイ可能。",
+            "tech": ["n8n", "OpenAI", "Embeddings", "Vector Store", "RAG", "Workflow automation"]
+          },
+          {
+            "title": "企業向け文書処理パイプライン",
+            "description": "手作業を 30〜45% 削減し精度を 20% 向上させる AI 文書処理。抽出・分類・ルーティングの自動化。",
+            "tech": ["LangChain", "GPT-4", "Kafka", "FastAPI", "Docker"]
+          }
+        ]
+      },
+      {
+        "id": "web-mobile",
+        "label": "Web・モバイル",
+        "projects": [
+          {
+            "title": "BANNER LIBRARY（デザインライブラリ）",
+            "description": "質の高いバナー・Web デザインのギャラリーサイト。BANNER LIBRARY（design-library.jp）は季節・カテゴリ別デザイン—ファッション、ビューティ、フード、旅行、キャンペーン—をテイスト・トピック・形状・色でフィルタしてキュレーション。検索・お気に入り・ランキング付きレスポンシブ Web；デザインリソースグループ（UI LIBRARY、MAIL LIBRARY、EC LIBRARY、CSS LABORATORY）の一環。",
+            "tech": ["React", "Next.js", "TypeScript", "Tailwind CSS", "WordPress"]
+          },
+          {
+            "title": "Taprize",
+            "description": "限定・コラボ景品のオンラインガチャプラットフォーム。Taprize（taprize.jp）でユーザーはガチャで限定の実物・デジタル商品を獲得；クリエイターはカスタム販売ページ、エンドツーエンドの制作・発送、クレジットカード決済。無料登録、購入でプレイ、自動発送またはデジタル配信。",
+            "tech": ["React", "Ruby on Rails", "Stripe", "PostgreSQL", "Docker"]
+          },
+          {
+            "title": "Klook",
+            "description": "アクティビティ、観光、ホテル、体験の Web・モバイル旅行プラットフォーム。Klook（klook.com）で地元の逃避から遠方の冒険まで発見・予約—優先チケット、ツアー、送迎、eSIM など。レスポンシブ Web とネイティブアプリ；無料キャンセル、即時確認、Klook クレジット、レビュー。いつでもどこでも、あなたの世界の喜び。",
+            "tech": ["React", "React Native", "Node.js", "TypeScript", "PostgreSQL", "AWS", "Docker"]
+          }
+        ]
+      },
+      {
+        "id": "devops",
+        "label": "DevOps",
+        "projects": [
+          {
+            "title": "AWS Terraform 自動化",
+            "description": "Terraform と Bash によるマルチブランド・マルチ環境の AWS 自動化。インフラ：環境の作成・削除・更新・検証（Terraform ワークスペース、名前空間付きリソース）。デプロイ：前提条件（AWS CLI、Terraform、jq）の検証、(2) Terraform 出力（RDS シークレット ARN、Redis、S3、Elastic Beanstalk アプリ/環境）の読み取り、(3) AWS Secrets Manager から DB・API 認証情報の取得、(4) Terraform + シークレットから .env をビルド、(5) アプリのパッケージ、(6) EB 環境変数の設定、(7) Elastic Beanstalk へのデプロイを行う自動デプロイスクリプト。モニタリング：ヘルスチェック、ログ閲覧、レポート生成。単一スクリプトで複数ブランド・環境（例: ステージング、本番）をサポート。",
+            "features": [
+              "インフラ: create-environment、destroy-environment、update-environment、validate-environment（Terraform >= 1.6）",
+              "デプロイ: deploy.sh—Terraform 出力 → Secrets Manager（DB、API キー）→ .env 生成 → zip パッケージ → EB デプロイ",
+              "マルチブランド: ブランド・環境でパラメータ化；リソースは {brand}-{environment}-{resource} で名前空間",
+              "シークレット: AWS Secrets Manager から DB 認証情報と API キー（Stripe、Auth0、Plivo、Mailgun 等）；.env フォールバック",
+              "モニタリング: check-health、view-logs、generate-report スクリプト",
+              "CI/CD 対応: 前提条件チェック、ワークスペース選択、オプションの非対話モード"
+            ],
+            "tech": ["AWS", "Terraform", "Elastic Beanstalk", "Secrets Manager", "S3", "Redis", "Bash", "jq", "EB CLI"]
+          },
+          {
+            "title": "LLMOps・MLOps 標準",
+            "description": "組織全体の LLMOps/MLOps 標準。自動評価パイプライン、モデルバージョニング、シャドウデプロイ、コストを考慮した推論ルーティング。",
+            "tech": ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform"]
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "career": "経歴",
+    "title": "経験",
+    "intro": "ジュニア開発者からシニア AI エンジニアまで 10 年以上の段階的な成長。",
+    "items": [
+      {
+        "company": "Preferred Networks",
+        "role": "シニア AI エンジニア",
+        "period": "2023年8月 - 2025年8月",
+        "location": "東京都、日本",
+        "highlights": [
+          "コンピュータビジョン・NLP タスク向け ML モデル開発をリード",
+          "ロボティクス・ヘルスケアの大規模データ向け深層学習パイプラインの構築・最適化",
+          "本番で転移学習、強化学習、最先端トランスフォーマーを適用",
+          "ジュニアエンジニアのメンタリングと高度 ML の社内ワークショップを実施"
+        ]
+      },
+      {
+        "company": "楽天グループ株式会社",
+        "role": "シニア フルスタック AI エンジニア",
+        "period": "2021年1月 - 2023年7月",
+        "location": "東京都、日本",
+        "highlights": [
+          "E コマース・フィンテック向け ML によるレコメンド・不正検知の AI アプリを開発",
+          "トランスフォーマーモデル（GPT、Gemini）を用いた AI チャットボットプラットフォームの開発をリード",
+          "NLP と画像認識を Web・モバイルアプリに統合",
+          "DB パフォーマンスとシステムのスケーラビリティを最適化"
+        ]
+      },
+      {
+        "company": "SCSK 株式会社",
+        "role": "フルスタックエンジニア",
+        "period": "2018年4月 - 2020年11月",
+        "location": "東京都、日本",
+        "highlights": [
+          "JavaScript、Java、Python によるフルスタック Web アプリを開発",
+          "要件分析、システム設計、コードレビューに参加",
+          "継続的改善による顧客プロジェクトの長期サポート"
+        ]
+      },
+      {
+        "company": "LINE 株式会社",
+        "role": "ジュニア フルスタック開発者",
+        "period": "2017年6月 - 2018年3月",
+        "location": "東京都、日本",
+        "highlights": [
+          "シニアの指導の下でフロント・バックエンド機能を開発",
+          "ソフトウェア開発ライフサイクルとコーディング標準を習得",
+          "Web 技術とプログラミングの基礎を構築"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "expertise": "専門分野",
+    "title": "スキルと資格",
+    "intro": "AI およびソフトウェア開発ライフサイクル全体にわたる技術力。",
+    "groups": [
+      {
+        "title": "AI / 機械学習",
+        "skills": ["機械学習", "深層学習", "NLP", "LLM", "RAG", "プロンプトエンジニアリング", "Transformers", "ファインチューニング", "モデル評価", "予測", "レコメンドシステム", "TensorFlow", "Keras", "Hugging Face", "LangChain", "Scikit-learn", "XGBoost"]
+      },
+      {
+        "title": "フルスタック開発",
+        "skills": ["React", "Next.js", "Vue.js", "TypeScript", "Tailwind CSS", "Node.js", "FastAPI", "Django", "Java", "RESTful / GraphQL", "SQL", "MongoDB", "Redis", "OAuth"]
+      },
+      {
+        "title": "MLOps とクラウド",
+        "skills": ["Docker", "Kubernetes", "MLflow", "CI/CD", "AWS", "GCP", "Azure", "Terraform", "GitHub Actions"]
+      }
+    ],
+    "certificationsTitle": "資格",
+    "certifications": [
+      { "name": "Deep Learning Specialization", "issuer": "Coursera / DeepLearning.AI" },
+      { "name": "Generative AI with LLMs", "issuer": "Coursera / DeepLearning.AI" },
+      { "name": "AWS Certified ML - Specialty", "issuer": "Amazon Web Services" }
+    ]
+  },
+  "education": {
+    "background": "学歴",
+    "title": "教育",
+    "items": [
+      {
+        "degree": "情報理工学修士（MIST）",
+        "university": "東京大学",
+        "period": "2021 - 2023"
+      },
+      {
+        "degree": "コンピュータサイエンス学士",
+        "university": "名古屋大学",
+        "period": "2013 - 2017"
+      }
+    ]
+  },
+  "contact": {
+    "getStarted": "お問い合わせ",
+    "title": "ご連絡",
+    "intro": "AI でビジネスの課題をどう解決できるか、ご相談ください。",
+    "name": "お名前",
+    "email": "メールアドレス",
+    "message": "メッセージ",
+    "namePlaceholder": "お名前",
+    "emailPlaceholder": "your@email.com",
+    "messagePlaceholder": "プロジェクトについてお聞かせください...",
+    "sendMessage": "送信",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "location": "所在地",
+    "locationValue": "東京都、日本"
+  }
+}

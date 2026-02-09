@@ -1,3 +1,4 @@
+import { setRequestLocale } from "next-intl/server"
 import { Navbar } from "@/components/navbar"
 import { HeroSection } from "@/components/hero-section"
 import { ServicesSection } from "@/components/services-section"
@@ -8,7 +9,12 @@ import { EducationSection } from "@/components/education-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 
-export default function Home() {
+type Props = { params: Promise<{ locale: string }> }
+
+export default async function LocaleHome({ params }: Props) {
+  const { locale } = await params
+  setRequestLocale(locale)
+
   return (
     <main className="min-h-screen">
       <Navbar />
