@@ -11,7 +11,7 @@ export function HeroSection() {
   const tStats = useTranslations("hero.stats")
 
   const stats = [
-    { value: "10+", key: statKeys[0] },
+    { value: "7+", key: statKeys[0] },
     { value: "20+", key: statKeys[1] },
     { value: "30-45%", key: statKeys[2] },
     { value: "3", key: statKeys[3] },
