@@ -155,3 +155,87 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Card light-flow: normal border by default; on hover = green border + rotating light spots */
+@keyframes card-light-flow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card-light-flow {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  background: var(--card);
+}
+
+.card-light-flow::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 2px;
+  box-sizing: border-box;
+  transform-origin: center center;
+  /* Two wide spots 180° apart – visible along top, right, bottom, left as they rotate */
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    transparent 300deg,
+    rgba(132, 193, 31, 0.4) 308deg,
+    rgba(132, 193, 31, 0.8) 318deg,
+    var(--accent) 328deg,
+    var(--accent) 32deg,
+    rgba(132, 193, 31, 0.8) 42deg,
+    rgba(132, 193, 31, 0.4) 52deg,
+    transparent 60deg,
+    transparent 120deg,
+    rgba(132, 193, 31, 0.4) 128deg,
+    rgba(132, 193, 31, 0.8) 138deg,
+    var(--accent) 148deg,
+    var(--accent) 212deg,
+    rgba(132, 193, 31, 0.8) 222deg,
+    rgba(132, 193, 31, 0.4) 232deg,
+    transparent 240deg,
+    transparent 300deg
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  z-index: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+/* Mouse: class stays until pointer actually leaves card. Keyboard: focus-within */
+/* TEMPORARILY HIDDEN: uncomment the block below to re-enable light spots */
+/*
+.card-light-flow.is-light-flow-active::before,
+.card-light-flow:focus-within::before {
+  opacity: 1;
+  animation: card-light-flow 6s linear infinite;
+}
+*/
+.card-light-flow.is-light-flow-active::before,
+.card-light-flow:focus-within::before {
+  opacity: 0;
+  animation: none;
+}
+
+.card-light-flow-inner {
+  position: relative;
+  z-index: 1;
+  margin: 2px;
+  border-radius: calc(var(--radius-xl) - 2px);
+  transition: border-color 0.2s ease;
+}
+
+.card-light-flow.is-light-flow-active .card-light-flow-inner,
+.card-light-flow:focus-within .card-light-flow-inner {
+  border-color: rgba(132, 193, 31, 0.55);
+}

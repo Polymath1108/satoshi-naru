@@ -26,8 +26,9 @@ export function EducationSection() {
           {education.map((edu) => (
             <div
               key={edu.degree}
-              className="p-6 border border-border rounded-xl hover:border-[#84c11f]/40 transition-colors bg-card"
+              className="card-light-flow rounded-xl"
             >
+              <div className="card-light-flow-inner p-6 border border-border rounded-[11px] bg-card">
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-xl bg-[#84c11f]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <GraduationCap className="h-5 w-5 text-[#84c11f]" />
@@ -37,6 +38,7 @@ export function EducationSection() {
                   <p className="text-[15px] text-muted-foreground">{edu.university}</p>
                   <p className="text-sm text-muted-foreground font-mono mt-1">{edu.period}</p>
                 </div>
+              </div>
               </div>
             </div>
           ))}

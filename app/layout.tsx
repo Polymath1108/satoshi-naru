@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Inter, JetBrains_Mono } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
+import { CardLightFlowInit } from "@/components/card-light-flow-init"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
@@ -30,6 +31,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <CardLightFlowInit />
         </ThemeProvider>
         <Analytics />
       </body>

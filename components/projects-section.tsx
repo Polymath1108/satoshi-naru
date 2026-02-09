@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import {
   Carousel,
   CarouselContent,
@@ -266,10 +266,30 @@ type ProjectItem = {
   link?: string
 }
 
+const validCategoryIds = new Set(projectCategories.map((c) => c.id))
+
+function getCategoryIdFromHash(): string | null {
+  if (typeof window === "undefined") return null
+  const hash = window.location.hash.slice(1)
+  if (!hash.startsWith("projects-")) return null
+  const id = hash.replace("projects-", "")
+  return validCategoryIds.has(id) ? id : null
+}
+
 export function ProjectsSection() {
   const [activeTab, setActiveTab] = useState("poc-mvp")
   const [selectedProject, setSelectedProject] = useState<ProjectItem | null>(null)
   const activeCategory = projectCategories.find((c) => c.id === activeTab) || projectCategories[0]
+
+  useEffect(() => {
+    const syncTabFromHash = () => {
+      const id = getCategoryIdFromHash()
+      if (id) setActiveTab(id)
+    }
+    syncTabFromHash()
+    window.addEventListener("hashchange", syncTabFromHash)
+    return () => window.removeEventListener("hashchange", syncTabFromHash)
+  }, [])
 
   function getProjectImageSrc(project: ProjectItem): string {
     if ("images" in project && project.images?.length) return project.images[0]
@@ -334,8 +354,9 @@ export function ProjectsSection() {
                 tabIndex={0}
                 onClick={() => setSelectedProject(projectItem)}
                 onKeyDown={(e) => e.key === "Enter" && setSelectedProject(projectItem)}
-                className="border border-border rounded-xl overflow-hidden flex flex-col bg-card hover:border-[#84c11f]/40 transition-colors cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#84c11f]/50"
+                className="card-light-flow rounded-xl overflow-hidden flex flex-col flex-1 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#84c11f]/50"
               >
+                <div className="card-light-flow-inner flex flex-col min-w-0 rounded-[11px] border border-border bg-card overflow-hidden flex-1">
                 <div className="h-48 overflow-hidden bg-secondary relative flex-shrink-0">
                   {imageList && imageList.length > 0 ? (
                     <Carousel opts={{ loop: true }} className="h-full w-full">
@@ -375,7 +396,8 @@ export function ProjectsSection() {
                         {tech}
                       </span>
                     ))}
-                  </div>
+                    </div>
+                </div>
                 </div>
               </div>
             )
@@ -383,7 +405,7 @@ export function ProjectsSection() {
         </div>
 
         <Dialog open={!!selectedProject} onOpenChange={(open) => !open && setSelectedProject(null)}>
-          <DialogContent className="sm:max-w-4xl max-h-[90vh] overflow-y-auto p-6 sm:p-8">
+          <DialogContent className="sm:max-w-5xl max-h-[90vh] overflow-y-auto p-6 sm:p-8">
             {selectedProject && (
               <>
                 <DialogHeader>
@@ -391,7 +413,7 @@ export function ProjectsSection() {
                 </DialogHeader>
                 <div className="space-y-5">
                   {getProjectImages(selectedProject) && (
-                    <div className="h-64 sm:h-80 rounded-xl overflow-hidden bg-secondary border border-border">
+                    <div className="h-80 sm:h-[28rem] lg:h-[32rem] rounded-xl overflow-hidden bg-secondary border border-border">
                       <Carousel opts={{ loop: true }} className="h-full w-full">
                         <CarouselContent className="ml-0 h-full">
                           {getProjectImages(selectedProject)!.map((src, i) => (
@@ -410,7 +432,7 @@ export function ProjectsSection() {
                     </div>
                   )}
                   {!getProjectImages(selectedProject) && (
-                    <div className="h-64 sm:h-80 rounded-xl overflow-hidden bg-secondary border border-border">
+                    <div className="h-80 sm:h-[28rem] lg:h-[32rem] rounded-xl overflow-hidden bg-secondary border border-border">
                       <img
                         src={getProjectImageSrc(selectedProject)}
                         alt={selectedProject.title}

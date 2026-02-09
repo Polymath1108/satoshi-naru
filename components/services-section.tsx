@@ -73,8 +73,9 @@ export function ServicesSection() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="group p-6 border border-border rounded-xl hover:border-[#84c11f]/40 transition-colors flex flex-col bg-card"
+              className="card-light-flow group rounded-xl flex flex-col"
             >
+              <div className="card-light-flow-inner p-6 border border-border rounded-[11px] flex flex-col bg-card flex-1">
               <div className="flex items-start gap-4 mb-4">
                 <div className="w-11 h-11 rounded-xl bg-[#84c11f]/10 flex items-center justify-center flex-shrink-0">
                   <service.icon className="h-5 w-5 text-[#84c11f]" />
@@ -100,11 +101,12 @@ export function ServicesSection() {
 
               <a
                 href={`#projects-${service.projectAnchor}`}
-                className="inline-flex items-center text-sm font-semibold text-foreground hover:text-[#84c11f] transition-colors mt-auto"
+                className="inline-flex items-center text-xs font-semibold text-foreground hover:text-[#84c11f] transition-colors mt-auto"
               >
                 View Projects
                 <ArrowRight className="ml-1.5 h-4 w-4" />
               </a>
+              </div>
             </div>
           ))}
         </div>

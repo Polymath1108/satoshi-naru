@@ -30,8 +30,9 @@ export function ContactSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-5 gap-6">
-          <div className="md:col-span-3 p-6 bg-card border border-border rounded-xl">
+        <div className="grid md:grid-cols-5 gap-6 items-stretch">
+          <div className="md:col-span-3 card-light-flow rounded-xl h-full flex flex-col">
+            <div className="card-light-flow-inner p-6 bg-card border border-border rounded-[11px] flex-1 min-h-0 flex flex-col">
             <form onSubmit={handleSubmit} className="space-y-5">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <div>
@@ -84,6 +85,7 @@ export function ContactSection() {
                 Send Message
               </Button>
             </form>
+            </div>
           </div>
 
           <div className="md:col-span-2 space-y-4">
@@ -116,8 +118,9 @@ export function ContactSection() {
             ].map((item) => (
               <div
                 key={item.label}
-                className="p-5 bg-card border border-border rounded-xl hover:border-[#84c11f]/40 transition-colors"
+                className="card-light-flow rounded-xl"
               >
+                <div className="card-light-flow-inner p-5 bg-card border border-border rounded-[11px]">
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 rounded-xl bg-[#84c11f]/10 flex items-center justify-center flex-shrink-0">
                     <item.icon className="h-5 w-5 text-[#84c11f]" />
@@ -137,6 +140,7 @@ export function ContactSection() {
                       <p className="text-[15px] text-foreground">{item.value}</p>
                     )}
                   </div>
+                </div>
                 </div>
               </div>
             ))}

@@ -52,8 +52,9 @@ export function SkillsSection() {
           {skillGroups.map((group) => (
             <div
               key={group.title}
-              className="p-6 bg-card border border-border rounded-xl hover:border-[#84c11f]/30 transition-colors"
+              className="card-light-flow p-0 rounded-xl h-full flex flex-col"
             >
+              <div className="card-light-flow-inner p-6 bg-card border border-border rounded-[11px] flex-1 min-h-0 flex flex-col">
               <div className="flex items-center gap-3 mb-5">
                 <div className="w-10 h-10 rounded-lg bg-[#84c11f]/10 flex items-center justify-center flex-shrink-0">
                   <group.icon className="h-5 w-5 text-[#84c11f]" />
@@ -69,11 +70,13 @@ export function SkillsSection() {
                   </li>
                 ))}
               </ul>
+              </div>
             </div>
           ))}
         </div>
 
-        <div className="p-6 bg-card border border-border rounded-xl">
+        <div className="card-light-flow rounded-xl">
+          <div className="card-light-flow-inner p-6 bg-card border border-border rounded-[11px]">
           <div className="flex items-center gap-3 mb-5">
             <div className="w-10 h-10 rounded-lg bg-[#84c11f]/10 flex items-center justify-center flex-shrink-0">
               <Award className="h-5 w-5 text-[#84c11f]" />
@@ -87,6 +90,7 @@ export function SkillsSection() {
                 <p className="text-sm text-muted-foreground">{cert.issuer}</p>
               </div>
             ))}
+          </div>
           </div>
         </div>
       </div>
