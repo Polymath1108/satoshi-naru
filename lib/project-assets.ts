@@ -13,6 +13,7 @@ export const PROJECT_ASSETS: Record<
     { images: ["/img/sass/suisei%20(1).png", "/img/sass/suisei%20(2).png"], link: "https://suisei.ai" },
     { images: ["/img/sass/ashpos%20(1).png", "/img/sass/ashpos%20(2).png", "/img/sass/ashpos%20(3).png", "/img/sass/ashpos%20(4).png"], link: "https://ashespos.ai" },
     { images: ["/img/sass/voice-agent%20(1).png", "/img/sass/voice-agent%20(2).png", "/img/sass/voice-agent%20(3).png", "/img/sass/voice-agent%20(4).png"], link: "https://qcall.ai" },
+    { images: ["/img/sass/trading%20(1).png", "/img/sass/trading%20(2).png", "/img/sass/trading%20(3).png", "/img/sass/trading%20(4).png"], link: "https://furuplus.com/" },
   ],
   "ml-solutions": [
     { image: "/img/mlops/rakuten-ecommerce.png" },

@@ -175,6 +175,18 @@
             "title": "QCall.ai",
             "description": "24/7 AI agent calling platform that automates sales, customer support, and follow-ups with AI-driven human-like conversations. Inbound and outbound calls, multilingual support, AI call routing, lead prioritization, analytics, and CRM integration. Use cases: cold calls, customer support, appointment scheduling, surveys, collections, and HR recruitment.",
             "tech": ["Next.js", "TypeScript", "GPT-4", "Stripe", "PostgreSQL"]
+          },
+          {
+            "title": "Furu+",
+            "description": "AI-powered financial coach for learning trading across stocks, options, crypto, forex, futures, and commodities. Market screener, education hub, 24/7 AI coach, strategy backtesting, and real-time market news. Personalized coaching and intelligent insights to help traders make data-driven decisions.",
+            "features": [
+              "Market Screener: Filter by market cap, volume, price, technical indicators across all asset classes",
+              "Education Hub: Structured courses, interactive playbooks, quizzes; track learning progress",
+              "AI Coach: Natural-language Q&A, real-time market analysis, personalized strategies, 24/7 availability",
+              "Strategy Backtesting: Test strategies on historical data, performance metrics, optimize before live trading",
+              "Market News: Real-time news, analysis, alerts; connect news with market movements"
+            ],
+            "tech": ["Next.js", "TypeScript", "AI/LLM", "Stripe", "PostgreSQL", "Tailwind CSS"]
           }
         ]
       },
