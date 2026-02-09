@@ -7,7 +7,7 @@ const services = [
     subtitle: "1 Week Sprint",
     description:
       "Validate your AI product idea fast. Functional prototypes and MVPs in one-week sprints to test market fit and iterate before committing to full development.",
-    skills: ["Next.js", "React", "FastAPI", "Python", "OpenAI API", "LangChain", "Docker", "Vercel"],
+    skills: ["Webflow", "Bese44", "Webflow CMS", "Google Analytics", "Next.js/Supabase", "Python", "Docker", "Vercel"],
     projectAnchor: "poc-mvp",
   },
   {

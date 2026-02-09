@@ -47,13 +47,16 @@ export function HeroSection() {
               <span className="text-[#84c11f] text-sm font-medium">Available for projects</span>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-5 leading-[1.1] text-balance">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-2 leading-[1.1]">
+              I&apos;m Satoshi Naru
+            </h1>
+            <p className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground mb-5 font-semibold leading-snug text-balance">
               Senior Full-Stack
               <br />
               <span className="text-[#84c11f]">AI / ML / LLM</span>
               <br />
               Engineer
-            </h1>
+            </p>
 
             <p className="text-lg text-muted-foreground mb-4 leading-relaxed max-w-2xl text-pretty">
               10+ years designing, developing, and operating AI models, scalable web applications, and AI-powered systems. Strong background in AI engineering, full-stack development, and cloud-native architecture.
@@ -69,8 +72,8 @@ export function HeroSection() {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 mt-14 pt-10 border-t border-border">
           {[
             { value: "10+", label: "Years Experience" },
+            { value: "20+", label: "Production-Grade Systems" },
             { value: "30-45%", label: "Workload Reduction" },
-            { value: "20%", label: "Accuracy Improvement" },
             { value: "3", label: "Certifications" },
           ].map((stat) => (
             <div key={stat.label}>

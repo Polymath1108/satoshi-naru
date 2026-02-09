@@ -48,43 +48,42 @@ export function SkillsSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mb-5">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
           {skillGroups.map((group) => (
             <div
               key={group.title}
-              className="p-6 bg-card border border-border rounded-xl hover:border-[#84c11f]/40 transition-colors"
+              className="p-6 bg-card border border-border rounded-xl hover:border-[#84c11f]/30 transition-colors"
             >
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-xl bg-[#84c11f]/10 flex items-center justify-center">
+              <div className="flex items-center gap-3 mb-5">
+                <div className="w-10 h-10 rounded-lg bg-[#84c11f]/10 flex items-center justify-center flex-shrink-0">
                   <group.icon className="h-5 w-5 text-[#84c11f]" />
                 </div>
-                <h3 className="font-bold text-foreground text-base">{group.title}</h3>
+                <h3 className="font-semibold text-foreground text-base">{group.title}</h3>
               </div>
-              <div className="flex flex-wrap gap-2">
+              <ul className="flex flex-wrap gap-2">
                 {group.skills.map((skill) => (
-                  <span
-                    key={skill}
-                    className="px-3 py-1.5 text-sm bg-[var(--skill-bg)] text-[var(--skill-text)] border border-[var(--skill-border)] rounded-lg font-mono leading-none"
-                  >
-                    {skill}
-                  </span>
+                  <li key={skill}>
+                    <span className="inline-block px-2.5 py-1 text-xs font-medium text-muted-foreground bg-muted/60 border border-border rounded-md">
+                      {skill}
+                    </span>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
           ))}
         </div>
 
         <div className="p-6 bg-card border border-border rounded-xl">
           <div className="flex items-center gap-3 mb-5">
-            <div className="w-10 h-10 rounded-xl bg-[#84c11f]/10 flex items-center justify-center">
+            <div className="w-10 h-10 rounded-lg bg-[#84c11f]/10 flex items-center justify-center flex-shrink-0">
               <Award className="h-5 w-5 text-[#84c11f]" />
             </div>
-            <h3 className="font-bold text-foreground text-base">Certifications</h3>
+            <h3 className="font-semibold text-foreground text-base">Certifications</h3>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {certifications.map((cert) => (
-              <div key={cert.name} className="p-4 bg-secondary rounded-lg">
-                <p className="text-[15px] font-semibold text-foreground mb-1">{cert.name}</p>
+              <div key={cert.name} className="p-4 rounded-lg border border-border bg-muted/30">
+                <p className="text-[15px] font-semibold text-foreground mb-0.5">{cert.name}</p>
                 <p className="text-sm text-muted-foreground">{cert.issuer}</p>
               </div>
             ))}
